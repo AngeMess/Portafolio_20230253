@@ -1,0 +1,223 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+p {
+    margin: 0;
+}
+
+/*caja 1*/
+
+#intro {
+    width: 100%;
+    background-image: url(../Images/edificios1.jpg);
+    background-position: 50%;
+    background-size: cover;
+    height: 70vh;
+    color: #eeeeee;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    box-shadow: 100vh 100vw #00000070 inset;
+}
+
+#intro div {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+#intro-1 {
+    padding-left: 5%;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+#intro-1 p {
+    font-weight: 400;
+}
+
+#intro-img {
+    justify-content: center;
+}
+
+#intro-img img {
+    width: 50%;
+}
+
+/*caja 2*/
+
+#datos {
+    width: 100%;
+    background-color: #ee4a00;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2%;
+}
+
+#datos div {
+    width: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#datos h1 {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+#datos p {
+    margin: 0;
+}
+
+/*caja 3*/
+
+#valores {
+    width: 70%;
+}
+
+#mision {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5% 0%;
+    margin-bottom: 4%;
+}
+
+#vision {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: right;
+}
+
+#valores-text {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+}
+
+#vision #valores-text {
+    justify-content: right;
+}
+
+#valores-img {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#valores-img img {
+    width: 50%;
+}
+
+#Valores {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ff488e;
+}
+
+#Valores h1 {
+    width: 100%;
+    text-align: center;
+}
+
+.cajitas {
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#Valor-img {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Valor-img img {
+    width: 80%;
+}
+
+#Valor-text {
+    width: 80%;
+    color: #000;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+}
+
+#text-t {
+    font-weight: 400;
+}
+
+/*caja 4*/
+
+#ubicacion {
+    width: 100%;
+}
+
+#mapa {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+
+#mapa p {
+    width: 50%;
+    padding: 2%;
+}
+
+#imagenes {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#imagenes-cont {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#imagenes img {
+    width: 45%;
+    padding: 1%;
+}
+
+/*caja 5*/
+
+#contacto {
+    width: 100%;
+    margin-top: 3%;
+}
+
+#formularios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/Navbar-Footer.css">
+    <link rel="stylesheet" href="../css/Contactanos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <script src="../js/navbarContactanos.js" defer></script>
+    <script src="../js/footerPages.js" defer></script>
+    <link rel="icon" href="../img/Luxury Logo.ico">
+    <title>Contáctanos</title>
+</head>
+<body>
+    <!-- NavBar -->
+     <div id="navbarContenedor"></div>
+    <!-- NavBar -->
+
+    <!-- Titulo -->
+    <div class="container">
+        <div class="row ">
+          <div class="col-12">
+            <legend class="title-cont">Contáctanos</legend>
+          </div>
+        </div>
+      </div>
+    <!-- Titulo -->
+
+    <!-- Content -->
+    <div class="container container-Contactanos">
+        <div class="row ">
+          <!-- Form -->
+          <div class="col-md-8">
+                        <div class="well well-sm">
+                            <form class="form-horizontal" method="post" id="form">
+                                <fieldset>
+                                    <div class="form-group">
+                                        <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                                        <div class="col-md-8">
+                                            <input name="name" type="text" placeholder="Escribe tu nombre completo:" class="form-control"required>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <br>
+                                    <div class="form-group">
+                                        <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
+                                        <div class="col-md-8">
+                                            <input name="email" type="text" placeholder="Escribe tu email para poder contactarte:" class="form-control" required>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <br>
+                                    <div class="form-group">
+                                        <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
+                                        <div class="col-md-8">
+                                            <textarea class="form-control" name="message" placeholder="Escribe en que podemos ayudarte, te contactaremos lo mas pronto posible:" rows="7" required></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-md-12 padd-button">
+                                            <button id="enviar" type="submit" class="style-button">Enviar</button>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                        </div>
+          </div>
+          <!-- Form -->
+
+          <!-- Map -->
+          <div class="col-md-4">
+                <div class="map-container container-fluid mb-4">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3875.9261057827!2d-89.20738078472144!3d13.722923501658157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f6330813f89e61f%3A0xcb93eef8cc8c07e1!2sInstituto%20T%C3%A9cnico%20Ricaldone!5e0!3m2!1ses-419!2ssv!4v1660424848534!5m2!1ses-419!2ssv"
+                    width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade" id="mapa"></iframe>
+                </div>
+          </div>
+          <!-- Map -->
+        </div>
+      </div>
+    <!-- Content -->
+
+    <br>
+    <!-- Footer -->
+     <div id="footerContenedor"></div>
+    <!-- Footer -->
+    <script src="../js/ContactanosEfect.js"></script>
+    <script src="../js/cargarFooterPages.js"></script>
+    <script src="../js/cargarNavbarContactanos.js"></script>
+    <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script>
+</body>
+</html>

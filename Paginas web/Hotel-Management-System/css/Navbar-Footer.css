@@ -1,0 +1,91 @@
+/*Navbar*/
+.transparencia{
+    background: linear-gradient(rgba(5, 7, 12, 0.30), rgba(5, 7, 12, 0.30));
+}
+
+.imgLogo{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+
+.navSelect{
+    border-bottom: 1px solid #ffffff;
+    font-family: Arial;
+}
+
+.navBarra{
+    color:#ffffff;
+}
+
+.navMenu{
+    color: #ffffff;
+    border-radius: 20px;
+    transition: .1s;
+}
+
+.navMenu:hover{
+    background: linear-gradient(rgba(5, 7, 12, 0.60), rgba(5, 7, 12, 0.60));
+    border-radius: 3px;
+}
+
+.navMenu:active{
+    transform: scale(0.9);
+}
+
+/*Footer*/
+.textos{
+    font-family: Arial;
+}
+
+.titleLink{
+    border-bottom: 1px solid #ffffff;
+}
+
+.styleLink{
+    text-decoration: none;
+    color: #999999;
+}
+
+.styleLink:hover{
+    text-decoration:underline;
+    color: #b6b6b6;
+}
+
+/*Content Index*/
+.fondo-img{
+    height: 95vh;
+    background: url(../img/FondoHotel.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 95vh;
+    padding-top: 90px;
+    padding-left: 30px;
+    color: #ffffff;
+}
+
+.style-h3{
+    padding-top: 100px;
+}
+
+.style-h1{
+    font-size: 4.2rem;
+    overflow-wrap: break-word;
+}
+
+
+.carta{
+    max-width: 600px;
+    padding-bottom: 20px;
+    transition: .5s;
+}
+
+.carta:hover{
+    max-width: 609px;
+    background-color: #e6e6e6;
+}
+
+.boton-hover:active{
+    transition: .2s;
+    transform: scale(0.9);
+}
+

@@ -1,0 +1,32 @@
+/*Imagen de fondo*/
+.fondo-img1{
+    height: 70vh;
+    background: url(../img/imgFondoCodigo.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 70vh;
+    padding-top: 90px;
+    padding-left: 30px;
+    color: #ffffff;
+}
+
+
+.style-h2-1{
+    padding-top: 30px;
+    font-size: 2.5rem;
+    overflow-wrap: break-word;
+}
+
+.style-h5-1{
+    overflow-wrap: break-word;
+}
+
+/*Content*/
+.cart{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    transition: .5s;
+}
+
+.cart:hover{
+    transform: scale(1.1);
+}

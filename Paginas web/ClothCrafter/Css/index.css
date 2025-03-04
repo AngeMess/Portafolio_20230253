@@ -1,0 +1,125 @@
+@keyframes tonext {
+    75% {
+      left: 0;
+    }
+    95% {
+      left: 100%;
+    }
+    98% {
+      left: 100%;
+    }
+    99% {
+      left: 0;
+    }
+  }
+
+  .encabezado {
+    background: url(../Images/ropa.jpg) no-repeat center;
+    background-size: cover;
+    height: 75vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  #caja1 {
+    width: 50%;
+    height: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    color: #fff;
+  }
+  
+  .titulo {
+    padding-top: 5%;
+    font-family: 'Hind Guntur', sans-serif;
+    text-align: center;
+    font-size: 410%;
+    color: #fff;
+    margin-top: 50px;
+    text-shadow: 5px 5px 5px rgb(51, 51, 51);
+  }
+  
+  .encabezado p {
+    padding-top: 0%;
+    font-family: 'Hind Guntur', sans-serif;
+    text-align: center;
+    font-size: 150%;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgb(96, 96, 96);
+  }
+
+#carrusel-cont {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.carousel {
+  width: 19%;
+}
+  
+  @keyframes tostart {
+    75% {
+      left: 0;
+    }
+    95% {
+      left: -300%;
+    }
+    98% {
+      left: -300%;
+    }
+    99% {
+      left: 0;
+    }
+  }
+  
+  @keyframes snap {
+    96% {
+      scroll-snap-align: center;
+    }
+    97% {
+      scroll-snap-align: none;
+    }
+    99% {
+      scroll-snap-align: none;
+    }
+    100% {
+      scroll-snap-align: center;
+    }
+  }
+
+nav a {
+  color: #000;
+}
+
+nav li {
+  color: #000;
+}
+
+
+#caja2 {
+  padding: 5vh;
+}
+
+.card {
+  transition: 0.5s;
+  margin: 3vh;
+}
+
+.card:hover {
+  background-color: #c4c4c480;
+  transition: background-color 0.5s;
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.row {
+  margin-left: 0%;
+}
+
+footer {
+  width: 100%;
+}

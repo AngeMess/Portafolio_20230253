@@ -1,0 +1,50 @@
+footer {
+    font-family: 'Arial', sans-serif;
+    background-color: #bd2121;
+    color: #fff;
+    padding: 20px 0;
+    width: 100%;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-content {
+    flex: 1;
+    margin: 0 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  footer {
+    background-color: #2c2c2c;
+    color: #fff;
+    padding: 20px 0;
+    animation: slideIn 0.5s ease forwards;
+    width: 100%;
+  }
